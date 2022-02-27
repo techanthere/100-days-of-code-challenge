@@ -19,7 +19,7 @@
 
 ### Links
 
-- Solution URL: [https://github.com/techanthere/100-days-of-code-challenge/tree/main/Day-0](https://github.com/techanthere/100-days-of-code-challenge/tree/main/Day-01)
+- Solution URL: [https://github.com/techanthere/100-days-of-code-challenge/tree/main/Day-01](https://github.com/techanthere/100-days-of-code-challenge/tree/main/Day-01)
 - Live Site URL: [https://stopwatch-with-js.vercel.app/](https://stopwatch-with-js.vercel.app/)
 
 ## My process
