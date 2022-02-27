@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stopwatch-with-js.vercel.app/sitemap.xml
