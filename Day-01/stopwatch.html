@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr", lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/svg" sizes="16x16" href="icon/icon.svg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Stopwatch">
+	<meta property="og:title" content="Stopwatch created using Javascript">
+	<meta property="og:description" content="Designed and created a simple but cool looking stopwatch with CSS and Javascript.">
+	<meta property="og:locale" content="en_US">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content="Designed and created a simple but cool looking stopwatch with CSS and Javascript.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@techanthere">
+  <meta name="twitter:creator" content="@techanthere">
+	<title>Stopwatch</title>
+	<script type="text/javascript" src="stopwatch.js"></script>
+</head>
+
+<body>
+<main class="container">
+	<div class="content">
+		<h1>Stopwatch</h1>
+		<p class="numbers">
+			<span class="time" id="minutes">
+				00
+			</span>
+			:
+			<span class="time" id="seconds">
+				00
+			</span>
+			:
+			<span class="time" id="milliseconds">
+				00
+			</span>
+		</p>
+		<div class="action">
+			<button class="button" id="start">
+				<img src="images/start-stopwatch.svg" aria-hidden="true" alt="">
+			</button>
+			<button class="button" id="stop">
+				<img src="images/stop-stopwatch.svg" aria-hidden="true" alt="">
+			</button>
+			<button class="button" id="reset">
+				<img src="images/reset-stopwatch.svg" aria-hidden="true" alt="">
+			</button>
+		</div>
+	</div>
+</main>
+</body>
+</html>
